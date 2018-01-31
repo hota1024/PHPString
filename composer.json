@@ -1,0 +1,23 @@
+{
+    "name": "hota1024/PHPString",
+    "description": "PHP String wrapper class and methods",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hota1024",
+            "email": "hotalog@hota1024.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "7.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Collection\\": "src/",
+            "CollectionTest\\": "tests/"
+        }
+    }
+}
